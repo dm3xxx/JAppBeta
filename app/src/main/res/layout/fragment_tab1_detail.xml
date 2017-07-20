@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.example.hello.japp.Tab1Detail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab1_detail_name"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="1"
+        android:text="Error!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab1_detail_code"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="1"
+        android:text="Error!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab1_detail_color"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="1"
+        android:text="Error!" />
+
+</LinearLayout >
